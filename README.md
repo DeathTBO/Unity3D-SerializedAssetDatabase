@@ -13,7 +13,7 @@ The SerializedAsset<T> class serializes only the path to the object. At runtime 
 
 ## How Do I Set It Up?
 
-1. Simply import the Unity Package into your project. Also make sure you have the Json.Net library.
+1. Simply import the Unity Package from [Releases](https://github.com/DeathTBO/Unity3D-SerializedAssetDatabase/releases) into your project. Also make sure you have the Json.Net library.
 
 2. Drag the SerializedAssetDatabase prefab into the first scene.
 
