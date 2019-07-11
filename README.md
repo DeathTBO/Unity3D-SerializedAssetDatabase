@@ -3,11 +3,13 @@ Serialized Asset Database for Unity3D
 
 ## What Is It?
 
-This repo contains a way to serialize/deserialize UnityEngine.Objects (assets) to Json.Net. It was developed using C#, and required Netwonsoft's Json.Net library to work.
+This repo contains a way to load UnityEngine.Objects (assets) with a path relative to the assets folder. The SerializedAsset<T> class allows for easy use with Json.Net.
 
 ## How Does It Work?
 
-A scriptable object contains a serialized dictionary which stores paths as keys, and the assets as values. The SerializedAsset<T> class serializes only the path to the object. At runtime the asset is retrieved using this path as the dictionary key. It's handled automatically, and should be hassel free.
+A scriptable object contains a serialized dictionary which stores paths as keys, and the assets as values. These assets can be loaded via "SerializedAssetDatabase.Instance.LoadAsset<T>(path)" where the path is relative to the assets folder. For example, "Assets/MyGameAssets/Player.prefab". It will return null if no asset was found.
+
+The SerializedAsset<T> class serializes only the path to the object. At runtime the asset is retrieved using this path as the dictionary key, and assigns the asset as type T to the the "SerializedAsset.Asset" property. This is handled in the getter. It will return null if no asset was found.
 
 ## How Do I Set It Up?
 
