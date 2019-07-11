@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42199b24e7f5e051b8257b950adc2d90, type: 3}
+  m_Name: SerializedAssetDatabase
+  m_EditorClassIdentifier: 
+  serializedAssets:
+    paths:
+    - Assets/Example/CustomClasses.json
+    - Assets/Example/Prefabs/TestPrefab Variant.prefab
+    - Assets/Example/Prefabs/Prefabs2/TestPrefab5.prefab
+    - Assets/Example/Scenes/Example.unity
+    - Assets/Newtonsoft.Json/Newtonsoft.Json.dll
+    - Assets/Newtonsoft.Json/license.txt
+    - Assets/Example/Prefabs/TestPrefab.prefab
+    - Assets/Example/Prefabs/TestPrefab2 Variant.prefab
+    assets:
+    - {fileID: 4900000, guid: 513152e014c3ce00f8d5ae4d5dc415c2, type: 3}
+    - {fileID: 2789747764268323657, guid: 974d2aaa8041017ee84c32f95802730a, type: 3}
+    - {fileID: 6942574450009742069, guid: 1012540ac4fcd095fa29d8ea256291c0, type: 3}
+    - {fileID: 102900000, guid: 2cde2747536fc9c26aec821037c771f2, type: 3}
+    - {fileID: -1121539586, guid: b21ac5ac9c4742fce9afab9c75306689, type: 3}
+    - {fileID: 4900000, guid: 34a7f1275931f2bb087a615768c30022, type: 3}
+    - {fileID: 8877344524999778756, guid: 807f18d368068d0f7b2cb73471e62b58, type: 3}
+    - {fileID: 2631060228947471784, guid: e5e0f2b4f68250331a58449e4bfdbb71, type: 3}
